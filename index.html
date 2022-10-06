@@ -3,17 +3,45 @@
     <link href="dist/rpgui.css" rel="stylesheet" type="text/css" >
     <script src="dist/rpgui.js"></script>
   </head>
-  <body>
+  <body style="background-image: url('dist/img/parchment.jpg');";>
     <div class="rpgui-content">
-      <div class="rpgui-container framed-golden">
-        <h1>
+      <div class="rpgui-container framed">
+        <p>
           Brian Kampling
-        </h1>
-        <a href="https://discord.gg/3ZAs3dq5Qt">My Discord Server</a>
+        </p>
+        <hr class="golden">
+        <button
+          onclick="window.open('https://www.worldanvil.com/w/multiverse-briankampling','_blank')"
+          class="rpgui-button golden"
+          type="button"
+        >
+          <p>World Anvil</p>
+        </button>
         <br/>
-        <iframe src="https://discord.com/widget?id=1026288490612273252&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        <h2>Contact Me</h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdoy71qKbj4ONEeB7xi7CTG-u5rRvqfmP5vBoJyuKerYiBJA/viewform?embedded=true" width="640" height="361" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>        
+        <button
+        onclick="window.open('https://discord.gg/3ZAs3dq5Qt','_blank')"
+        class="rpgui-button golden"
+        type="button"
+        >
+        <p>My Discord Server</p>
+        </button>
+        <br/>
+        <button
+          onclick="window.open('https://forms.gle/vfotMh5hJhd71Nku8','_blank')"
+          class="rpgui-button golden"
+          type="button"
+        >
+          <p>Contact Me</p>
+        </button>
+        <br/>
+        <button
+          onclick="window.open('https://github.com/k4mp3r','_blank')"
+          class="rpgui-button golden"
+          type="button"
+        >
+          <p>GitHub</p>
+        </button>
+        <br/>
       </div>
     </div>
   </body>
