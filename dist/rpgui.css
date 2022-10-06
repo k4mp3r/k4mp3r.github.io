@@ -970,19 +970,3 @@ ul.rpgui-list-imp {
   left: 40px;
   background-image: url("img/slider-thumb-golden.png");
   background-size: 100% 100%; }
-
-.rpgui-content {
-  /* border */
-  border-style: solid;
-  border-image-source: url("img/border-image-golden.png");
-  border-image-repeat: repeat;
-  border-image-slice: 4 4 4 4;
-  border-image-width: 18px;
-  border-width: 15px;
-  padding: 12px;
-  /* internal border */
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  z-index: 10;
-}
